@@ -1,6 +1,6 @@
 import React from 'react';
-import { useHookstate } from '@hookstate/core';
-import { subscribable } from '@hookstate/subscribable';
+import { useHookstate } from '@redocly/hookstate-core';
+import { subscribable } from '@redocly/hookstate-subscribable';
 
 export const ExampleComponent = () => {
     const state = useHookstate({ a: 1, b: 1 }, subscribable())

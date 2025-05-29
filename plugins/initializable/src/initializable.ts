@@ -1,4 +1,4 @@
-import { ExtensionFactory, State } from '@hookstate/core';
+import { ExtensionFactory, State } from '@redocly/hookstate-core';
 
 export interface Initializable {}
 

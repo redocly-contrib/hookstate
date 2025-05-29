@@ -5,14 +5,14 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 import Highlight, { PrismTheme, defaultProps } from 'prism-react-renderer';
 import theme from 'prism-react-renderer/themes/palenight';
 
-import { useHookstate } from '@hookstate/core';
+import { useHookstate } from '@redocly/hookstate-core';
 
 // const packageJson = require('../package.json');
 // const packageDependencies = packageJson.dependencies
 
 // export const VersionInfo = () => {
 //     const packs = Object.keys(packageDependencies)
-//         .filter(i => i.startsWith('@hookstate/'));
+//         .filter(i => i.startsWith('@redocly/hookstate-'));
 //     const labels = packs.map((p, i) => <code key={p}>
 //         {p}: {packageDependencies[p]}<br />
 //     </code>)

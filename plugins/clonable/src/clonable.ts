@@ -1,4 +1,4 @@
-import { InferStateValueType, StateValueAtPath, ExtensionFactory, hookstate, State } from '@hookstate/core';
+import { InferStateValueType, StateValueAtPath, ExtensionFactory, hookstate, State } from '@redocly/hookstate-core';
 
 export interface Clonable {
     clone<S extends InferStateValueType<this>>(options?: { stealth?: boolean }): S

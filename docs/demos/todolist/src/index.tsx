@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 
 // optional, defaults are almost always right
-import { configure } from '@hookstate/core';
+import { configure } from '@redocly/hookstate-core';
 configure({
     interceptDependencyListsMode: "always",
     isDevelopmentMode: process.env.NODE_ENV === 'development'

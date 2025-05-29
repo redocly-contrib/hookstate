@@ -1,6 +1,6 @@
 import React from 'react';
-import { useHookstate } from '@hookstate/core';
-import { identifiable } from '@hookstate/identifiable';
+import { useHookstate } from '@redocly/hookstate-core';
+import { identifiable } from '@redocly/hookstate-identifiable';
 
 export const ExampleComponent = () => {
     const state = useHookstate(1, identifiable('my-counter'))

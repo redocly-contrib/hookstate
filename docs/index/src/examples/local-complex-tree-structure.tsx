@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHookstate, State } from '@hookstate/core';
+import { useHookstate, State } from '@redocly/hookstate-core';
 
 interface Node { name: string; children?: Node[] }
 

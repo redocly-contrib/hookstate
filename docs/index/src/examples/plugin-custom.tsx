@@ -1,6 +1,6 @@
 import React from 'react';
-import { State, ExtensionFactory, useHookstate, SetStateAction, InferStateValueType, hookstate, extend } from '@hookstate/core';
-import { Identifiable, identifiable } from '@hookstate/identifiable';
+import { State, ExtensionFactory, useHookstate, SetStateAction, InferStateValueType, hookstate, extend } from '@redocly/hookstate-core';
+import { Identifiable, identifiable } from '@redocly/hookstate-identifiable';
 
 // An example of state extension method and property,
 // which we will implement in the extension below

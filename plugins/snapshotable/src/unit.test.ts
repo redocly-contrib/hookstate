@@ -1,6 +1,6 @@
-import { useHookstate, extend, hookstate, State } from '@hookstate/core';
-import { clonable } from '@hookstate/clonable';
-import { comparable } from '@hookstate/comparable';
+import { useHookstate, extend, hookstate, State } from '@redocly/hookstate-core';
+import { clonable } from '@redocly/hookstate-clonable';
+import { comparable } from '@redocly/hookstate-comparable';
 
 import { renderHook, act } from '@testing-library/react';
 import React from 'react';

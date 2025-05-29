@@ -6,11 +6,11 @@ sidebar_label: Migrating to version 4
 
 ## How to migrate from v3 to v4?
 
-- Update your app dependencies for `@hookstate/core` to the version `4.0.0-rc21` (**this exact version**). Leave the plugins at the latest version 3.
+- Update your app dependencies for `@redocly/hookstate-core` to the version `4.0.0-rc21` (**this exact version**). Leave the plugins at the latest version 3.
 - Make your app running again. It should be fairly smooth as `4.0.0-rc21` version is the last version of Hookstate-4, which supported Hookstate-3 plugins, and has only a couple rarely used feature removed.
 - Move Hookstate-3 plugins to corresponding Hookstate-4 extensions.
 - Port your custom plugins to Hookstate-4 extensions interface.
-- Update all `@hookstate/*` dependencies to the latest `4.x` version of Hookstate.
+- Update all `@redocly/hookstate-*` dependencies to the latest `4.x` version of Hookstate.
 
 ## Changes overview
 

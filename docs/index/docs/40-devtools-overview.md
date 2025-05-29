@@ -10,13 +10,13 @@ sidebar_label: Overview
 * If a state does not have `identifiable` extension attached as well, `devtools` extension should be initialized with the `key` option.
 
     ```tsx
-    import { devtools } from '@hookstate/devtools'
+    import { devtools } from '@redocly/hookstate-devtools'
     let state = hookstate(value, devtools({ key: 'my-state-label' }))
     ```
 
     ```tsx
-    import { identifiable } from '@hookstate/identifiable'
-    import { devtools } from '@hookstate/devtools'
+    import { identifiable } from '@redocly/hookstate-identifiable'
+    import { devtools } from '@redocly/hookstate-devtools'
     let state = hookstate(value, extend(identifiable('my-state-label'), devtools()))
     ```
 

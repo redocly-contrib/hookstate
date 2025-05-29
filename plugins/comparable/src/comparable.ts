@@ -1,4 +1,4 @@
-import { ExtensionFactory, InferStateValueType, StateValueAtPath } from '@hookstate/core';
+import { ExtensionFactory, InferStateValueType, StateValueAtPath } from '@redocly/hookstate-core';
 
 export interface Comparable {
     compare<S extends InferStateValueType<this>>(other: S): number

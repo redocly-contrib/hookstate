@@ -1,13 +1,13 @@
 import React from 'react';
-import { useHookstate } from '@hookstate/core';
-import { localstored } from '@hookstate/localstored';
+import { useHookstate } from '@redocly/hookstate-core';
+import { localstored } from '@redocly/hookstate-localstored';
 
 export const ExampleComponent = () => {
     const state = useHookstate([{ name: 'First Task' }],
         localstored({
             // key is optional,
             // if it is not defined, the extension requires and
-            // uses the identifier from the @hookstate/identifiable
+            // uses the identifier from the @redocly/hookstate-identifiable
             key: 'state-key'
         }))
 

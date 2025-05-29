@@ -328,7 +328,7 @@ delete state.prop // <== Error!
 You likely intended the following instead:
 
 ```tsx
-import { none, useHookstate } from '@hookstate/core'
+import { none, useHookstate } from '@redocly/hookstate-core'
 const state = useHookstate(...)
 state.prop.set(none)
 ```
@@ -345,7 +345,7 @@ delete state[self.value].prop // <== Error!
 You likely intended the following instead:
 
 ```tsx
-import { none, useHookstate } from '@hookstate/core'
+import { none, useHookstate } from '@redocly/hookstate-core'
 const state = useHookstate(...)
 state.prop.set(none)
 ```

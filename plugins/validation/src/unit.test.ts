@@ -1,5 +1,5 @@
 
-import { useHookstate } from '@hookstate/core';
+import { useHookstate } from '@redocly/hookstate-core';
 import { renderHook, act } from '@testing-library/react';
 import { validation } from './validation';
 

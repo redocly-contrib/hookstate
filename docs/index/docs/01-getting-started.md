@@ -4,7 +4,7 @@ title: Getting started
 sidebar_label: Getting started
 ---
 
-import App from '@hookstate/todolist'
+import App from '@redocly/hookstate-todolist'
 
 ## Preface
 
@@ -49,16 +49,16 @@ Developed with love by a developer for developers, who love writing concise, und
 The library does not have external or peer dependencies, except React.
 
 ```bash
-npm install --save @hookstate/core
+npm install --save @redocly/hookstate-core
 ```
 
 Or:
 
 ```bash
-yarn add @hookstate/core
+yarn add @redocly/hookstate-core
 ```
 
-Hookstate consists of the core package `@hookstate/core` and optional extensions `@hookstate/*`, which you may include when needed. We have a goal of keeping the core library as small as possible but still feature-rich to address most of problems in state management and provide a good foundation for plugins. Plugins extend the library and address more specific needs. You can also write your own plugins: it is easy and gives a lot of power.
+Hookstate consists of the core package `@redocly/hookstate-core` and optional extensions `@redocly/hookstate-*`, which you may include when needed. We have a goal of keeping the core library as small as possible but still feature-rich to address most of problems in state management and provide a good foundation for plugins. Plugins extend the library and address more specific needs. You can also write your own plugins: it is easy and gives a lot of power.
 
 ## Browser support
 

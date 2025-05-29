@@ -1,4 +1,4 @@
-import { ExtensionFactory, State, StateValueAtPath } from '@hookstate/core';
+import { ExtensionFactory, State, StateValueAtPath } from '@redocly/hookstate-core';
 
 export interface Logged {
     log(): void

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useHookstate, State } from '@hookstate/core';
+import { useHookstate, State } from '@redocly/hookstate-core';
 
 const TableCell = (props: { cell: State<number> }) => {
   const scopedState = useHookstate(props.cell);

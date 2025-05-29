@@ -5,7 +5,7 @@ import {
     none,
     Path,
     ExtensionFactory,
-} from '@hookstate/core'
+} from '@redocly/hookstate-core'
 
 import { createStore } from 'redux';
 import { devToolsEnhancer } from 'redux-devtools-extension';
