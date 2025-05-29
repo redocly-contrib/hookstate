@@ -19,10 +19,10 @@
   <a href="./">
     <img src="https://badgen.net/badge/icon/typescript/green?icon=typescript&label">
   </a>
-  <a href="https://www.npmjs.com/package/@hookstate/core">
-      <img src="https://badgen.net/bundlephobia/minzip/@hookstate/core?label=size&color=green" />
+  <a href="https://www.npmjs.com/package/@redocly/hookstate-core">
+      <img src="https://badgen.net/bundlephobia/minzip/@redocly/hookstate-core?label=size&color=green" />
   </a>
-  <a href="https://www.npmjs.com/package/@hookstate/core">
+  <a href="https://www.npmjs.com/package/@redocly/hookstate-core">
     <img src="https://badgen.net/badge/dependencies/none/green" />
   </a>
   <a href="./LICENSE">
@@ -34,8 +34,8 @@
   <a href="https://codecov.io/gh/avkonst/hookstate">
     <img src="https://codecov.io/gh/avkonst/hookstate/branch/master/graph/badge.svg" />
   </a>
-  <a href="https://www.npmjs.com/package/@hookstate/core">
-    <img src="https://img.shields.io/npm/v/@hookstate/core.svg?maxAge=300&label=version&colorB=007ec6" />
+  <a href="https://www.npmjs.com/package/@redocly/hookstate-core">
+    <img src="https://img.shields.io/npm/v/@redocly/hookstate-core.svg?maxAge=300&label=version&colorB=007ec6" />
   </a>
 </p>
 

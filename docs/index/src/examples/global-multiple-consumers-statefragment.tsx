@@ -1,5 +1,5 @@
 import React from 'react';
-import { hookstate, StateFragment } from '@hookstate/core';
+import { hookstate, StateFragment } from '@redocly/hookstate-core';
 
 const state = hookstate(0);
 

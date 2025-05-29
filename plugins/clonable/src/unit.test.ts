@@ -1,5 +1,5 @@
 
-import { hookstate, State } from '@hookstate/core';
+import { hookstate, State } from '@redocly/hookstate-core';
 import { renderHook, act } from '@testing-library/react';
 import { Clonable, clonable } from '../src'
 

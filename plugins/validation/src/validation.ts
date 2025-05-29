@@ -1,5 +1,5 @@
 
-import { Path, StateValueAtPath, State, InferStateValueType, ExtensionFactory, StateExtensionUnknown } from '@hookstate/core';
+import { Path, StateValueAtPath, State, InferStateValueType, ExtensionFactory, StateExtensionUnknown } from '@redocly/hookstate-core';
 
 export type ValidationSeverity = 'error' | 'warning';
 

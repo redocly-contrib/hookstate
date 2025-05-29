@@ -1,7 +1,7 @@
 {
-    "name": "@hookstate/workspace",
+    "name": "@redocly/hookstate-workspace",
     "version": "4.0.0",
-    "description": "The workspace for @hookstate.",
+    "description": "The workspace for @redocly/hookstate-* packages.",
     "license": "MIT",
     "author": {
         "name": "Andrey Konstantinov"

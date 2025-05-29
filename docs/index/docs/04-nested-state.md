@@ -203,7 +203,7 @@ const state = useHookstate<{ a: number, b?: number }>({ a: 1, b: 2 }) // notice 
 
 The recommended methods to delete a property are the following: 
 ```tsx
-import { none } from '@hookstate/core'
+import { none } from '@redocly/hookstate-core'
 
 state.b.set(none)
 // or
@@ -382,7 +382,7 @@ const state = useHookstate([1000, 2000, 3000])
 
 The recommended methods to delete an element are the following: 
 ```tsx
-import { none } from '@hookstate/core'
+import { none } from '@redocly/hookstate-core'
 
 state[1].set(none)
 // or

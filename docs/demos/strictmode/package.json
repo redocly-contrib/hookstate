@@ -1,9 +1,9 @@
 {
-  "name": "@hookstate/strictmode",
+  "name": "@redocly/hookstate-strictmode",
   "version": "4.0.0-rc3",
   "private": true,
   "dependencies": {
-    "@hookstate/core": "workspace:*",
+    "@redocly/hookstate-core": "workspace:*",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.1",

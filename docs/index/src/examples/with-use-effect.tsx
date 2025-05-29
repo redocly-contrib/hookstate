@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHookstate } from '@hookstate/core';
+import { useHookstate } from '@redocly/hookstate-core';
 
 export const ExampleComponent = () => {
     const state = useHookstate<{ field1: boolean, field2: boolean, field3?: {} }>({

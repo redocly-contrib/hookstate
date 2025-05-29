@@ -1,5 +1,5 @@
 {
-  "name": "@hookstate/todolist",
+  "name": "@redocly/hookstate-todolist",
   "version": "4.0.0-rc3",
   "private": true,
   "homepage": ".",
@@ -8,8 +8,8 @@
   "jsnext:main": "build/App.es.js",
   "types": "build/App.d.ts",
   "dependencies": {
-    "@hookstate/core": "workspace:*",
-    "@hookstate/devtools": "workspace:*",
+    "@redocly/hookstate-core": "workspace:*",
+    "@redocly/hookstate-devtools": "workspace:*",
     "@types/jest": "28.1.4",
     "@types/node": "18.0.3",
     "@types/react": "19.1.5",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { hookstate, useHookstate } from '@hookstate/core';
+import { hookstate, useHookstate } from '@redocly/hookstate-core';
 
 const globalState = hookstate(0);
 

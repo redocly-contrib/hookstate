@@ -1,5 +1,5 @@
 
-import { Path, StateValueAtPath, InferStateValueType, ExtensionFactory, State, none } from '@hookstate/core';
+import { Path, StateValueAtPath, InferStateValueType, ExtensionFactory, State, none } from '@redocly/hookstate-core';
 
 export interface Subscribable {
     subscribe<S extends InferStateValueType<this>>(callback: (value: S) => void): () => void

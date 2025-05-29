@@ -4,7 +4,7 @@ title: Scoped state
 sidebar_label: Scoped state
 ---
 
-import App from '@hookstate/todolist'
+import App from '@redocly/hookstate-todolist'
 
 import { PreviewSample } from '../src/PreviewSample'
 

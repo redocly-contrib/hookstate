@@ -1,11 +1,11 @@
 import React from 'react';
-import { useHookstate, State, extend, InferStateExtensionType } from '@hookstate/core';
-import { identifiable } from '@hookstate/identifiable';
-import { Clonable, clonable } from '@hookstate/clonable';
-import { Comparable, comparable } from '@hookstate/comparable';
-import { Initializable, initializable } from '@hookstate/initializable';
-import { Snapshotable, snapshotable } from '@hookstate/snapshotable';
-import { logged } from '@hookstate/logged';
+import { useHookstate, State, extend, InferStateExtensionType } from '@redocly/hookstate-core';
+import { identifiable } from '@redocly/hookstate-identifiable';
+import { Clonable, clonable } from '@redocly/hookstate-clonable';
+import { Comparable, comparable } from '@redocly/hookstate-comparable';
+import { Initializable, initializable } from '@redocly/hookstate-initializable';
+import { Snapshotable, snapshotable } from '@redocly/hookstate-snapshotable';
+import { logged } from '@redocly/hookstate-logged';
 
 // define hookstate extension which is composed of a number of standard extensions
 function extensions<S, E>() {

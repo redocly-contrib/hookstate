@@ -1,4 +1,4 @@
-import { ExtensionFactory } from '@hookstate/core';
+import { ExtensionFactory } from '@redocly/hookstate-core';
 
 export interface Identifiable {
     readonly identifier: string

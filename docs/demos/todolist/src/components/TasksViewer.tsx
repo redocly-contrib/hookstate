@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTasksState, Task } from './TasksState';
-import { State, useHookstate, suspend, none } from '@hookstate/core';
+import { State, useHookstate, suspend, none } from '@redocly/hookstate-core';
 import { useSettingsState } from './SettingsState';
 
 function TaskEditor(props: { task: State<Task> }) {

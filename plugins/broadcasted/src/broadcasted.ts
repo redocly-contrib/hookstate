@@ -6,7 +6,7 @@ import {
     none,
     State,
     ExtensionFactory
-} from '@hookstate/core';
+} from '@redocly/hookstate-core';
 
 type OnLeaderSubscriber = () => void
 
@@ -92,7 +92,7 @@ function activateLeaderElection() {
 const SystemLeaderSubscription = activateLeaderElection()
 // SystemLeaderSubscription.subscribe(() => {
 //     if (window) {
-//         window.console.info('[@hookstate/broadcasted]: this tab is a leader')
+//         window.console.info('[@redocly/hookstate-broadcasted]: this tab is a leader')
 //     } 
 // })
 
@@ -197,7 +197,7 @@ export function broadcasted<S, E>(options?: {
             if (dst) {
                 message.dstInstance = dst
             }
-            // window.console.trace('[@hookstate/broadcasted]: sending message', this.topic, message);
+            // window.console.trace('[@redocly/hookstate-broadcasted]: sending message', this.topic, message);
             broadcastRef.channel.postMessage(message)
         }
 
@@ -228,12 +228,12 @@ export function broadcasted<S, E>(options?: {
                         kind: 'request-initial',
                         srcInstance: instanceId
                     }
-                    // window.console.trace('[@hookstate/broadcasted]: sending message', this.topic, message);
+                    // window.console.trace('[@redocly/hookstate-broadcasted]: sending message', this.topic, message);
                     broadcastRef.channel.postMessage(message)
                 }
 
                 broadcastRef = subscribeBroadcastChannel(topicId, (message: BroadcastMessage | ServiceMessage) => {
-                    // window.console.trace('[@hookstate/broadcasted]: received message', topic, message)
+                    // window.console.trace('[@redocly/hookstate-broadcasted]: received message', topic, message)
 
                     if (message.version > 1) {
                         return;
@@ -252,7 +252,7 @@ export function broadcasted<S, E>(options?: {
                         }
 
                         if (message.expectedTag && currentTag !== message.expectedTag) {
-                            // window.console.trace('[@hookstate/broadcasted]: conflicting update at path:', message.path);
+                            // window.console.trace('[@redocly/hookstate-broadcasted]: conflicting update at path:', message.path);
                             if (isLeader) {
                                 submitValueFromState(message.srcInstance)
                             } else {
@@ -267,7 +267,7 @@ export function broadcasted<S, E>(options?: {
                             try {
                                 targetState = targetState.nested(p)
                             } catch {
-                                // window.console.trace('[@hookstate/broadcasted]: broken tree at path:', message.path);
+                                // window.console.trace('[@redocly/hookstate-broadcasted]: broken tree at path:', message.path);
                                 requestValue()
                                 return;
                             }

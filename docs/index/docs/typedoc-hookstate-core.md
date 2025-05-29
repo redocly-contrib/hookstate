@@ -1,6 +1,6 @@
 ---
 id: typedoc-hookstate-core
-title: API @hookstate/core
+title: API @redocly/hookstate-core
 ---
 
 

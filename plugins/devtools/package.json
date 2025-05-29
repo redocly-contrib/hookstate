@@ -1,7 +1,7 @@
 {
-    "name": "@hookstate/devtools",
-    "version": "4.0.3",
-    "description": "Development tools plugin for @hookstate/core.",
+    "name": "@redocly/hookstate-devtools",
+    "version": "4.2.0",
+    "description": "Development tools plugin for @redocly/hookstate-core.",
     "license": "MIT",
     "author": {
         "name": "Andrey Konstantinov"
@@ -32,12 +32,12 @@
         "redux-devtools-extension": "2.13.9"
     },
     "peerDependencies": {
-        "@hookstate/core": "^4.0.0"
+        "@redocly/hookstate-core": "^4.0.0"
     },
     "devDependencies": {
         "@babel/core": "7.18.6",
         "@babel/runtime": "7.18.6",
-        "@hookstate/core": "workspace:*",
+        "@redocly/hookstate-core": "workspace:*",
         "@rollup/plugin-babel": "5.3.1",
         "@rollup/plugin-commonjs": "22.0.1",
         "@rollup/plugin-node-resolve": "13.3.0",

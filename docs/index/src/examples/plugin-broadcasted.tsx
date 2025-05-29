@@ -1,13 +1,13 @@
 import React from 'react';
-import { useHookstate } from '@hookstate/core';
-import { broadcasted } from '@hookstate/broadcasted';
+import { useHookstate } from '@redocly/hookstate-core';
+import { broadcasted } from '@redocly/hookstate-broadcasted';
 
 export const ExampleComponent = () => {
     const state = useHookstate([{ name: 'First Task' }],
         broadcasted({
             // topic is optional,
             // if it is not defined, the extension requires and
-            // uses the identifier from the @hookstate/identifiable
+            // uses the identifier from the @redocly/hookstate-identifiable
             topic: 'my-sync-channel-topic',
             onLeader: () => { // optional
                 window.console.log('This tab is a leader now')

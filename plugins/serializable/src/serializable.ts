@@ -1,4 +1,4 @@
-import { ExtensionFactory, Path, StateValueAtPath } from '@hookstate/core';
+import { ExtensionFactory, Path, StateValueAtPath } from '@redocly/hookstate-core';
 
 export interface Serializable {
     serialize: (options?: { stealth?: boolean }) => string,

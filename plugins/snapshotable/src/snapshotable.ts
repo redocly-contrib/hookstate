@@ -7,7 +7,7 @@ import {
     hookstate,
     ExtensionFactory,
     StateExtensionUnknown
-} from '@hookstate/core';
+} from '@redocly/hookstate-core';
 
 export type SnapshotMode = 'upsert' | 'insert' | 'update' | 'delete' | 'lookup';
 

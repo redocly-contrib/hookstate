@@ -1,6 +1,6 @@
 import React from 'react';
-import { State, useHookstate } from '@hookstate/core';
-import { Validation, validation } from '@hookstate/validation';
+import { State, useHookstate } from '@redocly/hookstate-core';
+import { Validation, validation } from '@redocly/hookstate-validation';
 
 interface Task { name: string }
 

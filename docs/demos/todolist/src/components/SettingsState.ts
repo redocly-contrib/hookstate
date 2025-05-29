@@ -1,5 +1,5 @@
-import { hookstate, useHookstate } from '@hookstate/core';
-import { devtools } from '@hookstate/devtools';
+import { hookstate, useHookstate } from '@redocly/hookstate-core';
+import { devtools } from '@redocly/hookstate-devtools';
 
 const settingsState = hookstate({
     isEditableInline: true,

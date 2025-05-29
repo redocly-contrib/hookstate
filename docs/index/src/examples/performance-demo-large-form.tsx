@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHookstate, State } from '@hookstate/core';
+import { useHookstate, State } from '@redocly/hookstate-core';
 
 export const ExampleComponent = () => {
     const state = useHookstate(Array.from(Array(5000).keys()).map(i => `Field #${i + 1} value`));
