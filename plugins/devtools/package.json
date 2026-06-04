@@ -28,8 +28,8 @@
         "update:deps": "ncu -u"
     },
     "dependencies": {
-        "redux": "4.2.0",
-        "redux-devtools-extension": "2.13.9"
+        "@redux-devtools/extension": "3.3.0",
+        "redux": "4.2.0"
     },
     "peerDependencies": {
         "@redocly/hookstate-core": "^4.0.0"
