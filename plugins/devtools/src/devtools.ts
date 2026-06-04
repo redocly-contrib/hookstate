@@ -8,7 +8,7 @@ import {
 } from '@redocly/hookstate-core'
 
 import { createStore } from 'redux';
-import { devToolsEnhancer } from 'redux-devtools-extension';
+import { devToolsEnhancer } from '@redux-devtools/extension';
 
 function createReduxDevToolsLogger(
     stateAtRoot: State<StateValueAtRoot>, assignedId: string, onBreakpoint: () => void) {
